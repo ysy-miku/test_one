@@ -1,9 +1,9 @@
 package homework3;
 
 public class animal {
-    public int age;
-    public String name;
-    public char sex;
+    private int age;
+    private String name;
+    private char sex;
     animal(){this.name="旭旭宝宝";this.sex='m';}
     void setName(String name){
         this.name = name;
